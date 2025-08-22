@@ -8,19 +8,16 @@ classes: wide
 ---
 
 # Construcción del Grafo
-<div class="embed-full">
+<div class="embed">
   <iframe src="{{ '/slides/index.html' | relative_url }}" allowfullscreen loading="lazy"></iframe>
 </div>
 <style>
-.embed-full{
-  width: 100vw;                 /* ocupa todo el ancho de la ventana */
-  margin-left: calc(50% - 50vw);/* rompe el límite de la columna */
-}
-.embed-full iframe{
+.embed{ max-width: 1200px; margin: 0 auto; }
+.embed iframe{
   width: 100%;
-  height: 80vh;
+  aspect-ratio: 16 / 9;  /* 4/3, 16/10, etc. si quieres otra */
+  height: auto;
   border: 0;
 }
 </style>
-
 [Ver a pantalla completa]({{ '/slides/index.html' | relative_url }})
