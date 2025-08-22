@@ -18,8 +18,15 @@ classes: wide
 </div>
 
 <style>
-.embed-16x9{position:relative;padding-top:56.25%}
-.embed-16x9 iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.embed{ max-width: 1200px; margin: 0 auto; } /* céntralo y dale tope de ancho */
+.embed iframe{
+  width: 100%;
+  height: 80vh;   /* ocupa 80% del alto de la ventana → se ve más grande */
+  border: 0;
+}
+@media (max-width: 768px){
+  .embed iframe{ height: 60vh; } /* un poco menos en móvil */
+}
 </style>
 
 [Ver a pantalla completa]({{ '/slides/index.html' | relative_url }})
