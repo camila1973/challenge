@@ -7,4 +7,3 @@ permalink: /lowLevelProblem/
 has_toc: false
 ---
 ## Presentación — Challenge
-
