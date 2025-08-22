@@ -8,24 +8,18 @@ classes: wide
 ---
 
 # Construcción del Grafo
-
-<div class="embed-16x9">
-  <iframe
-    src="{{ '/slides/index.html' | relative_url }}"
-    allowfullscreen
-    loading="lazy">
-  </iframe>
+<div class="embed-full">
+  <iframe src="{{ '/slides/index.html' | relative_url }}" allowfullscreen loading="lazy"></iframe>
 </div>
-
 <style>
-.embed{ max-width: 1200px; margin: 0 auto; } /* céntralo y dale tope de ancho */
-.embed iframe{
-  width: 100%;
-  height: 80vh;   /* ocupa 80% del alto de la ventana → se ve más grande */
-  border: 0;
+.embed-full{
+  width: 100vw;                 /* ocupa todo el ancho de la ventana */
+  margin-left: calc(50% - 50vw);/* rompe el límite de la columna */
 }
-@media (max-width: 768px){
-  .embed iframe{ height: 60vh; } /* un poco menos en móvil */
+.embed-full iframe{
+  width: 100%;
+  height: 80vh;
+  border: 0;
 }
 </style>
 
