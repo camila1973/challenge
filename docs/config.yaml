@@ -1,0 +1,6 @@
+title: Challenge Covalto
+description: Presentación solución Challenge
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+search_enabled: true
