@@ -11,9 +11,6 @@ nav_order: 1
   <iframe src="{{ '/slides/index.html' | relative_url }}" loading="lazy" allowfullscreen></iframe>
 </div>
 <style>
-.embed-16x9{position:relative;padding-top:60%}
-.embed-16x9 iframe {
-  transform: scale(0.95); /* Escala ligeramente más pequeña */
-  transform-origin: top left;
-}
+.embed-16x9{position:relative;padding-top:80%}
+.embed-16x9 iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 </style>
